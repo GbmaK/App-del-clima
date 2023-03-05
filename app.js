@@ -70,7 +70,7 @@ function mostrarDatos(datos) {
     const gradosComo = Math.round(feels_like-273.15); 
     seSienteComo.innerHTML = `Feels Like : &#171&#171&#171&#171&#171&#171&#171&#171&#171&#171 ${gradosComo} &#176C &#187&#187&#187&#187&#187&#187&#187&#187&#187&#187`;
     //humidity
-    humedad.textContent = `${humidity}%`;
+    humedad.textContent = `Humidity: ${humidity}%`;
     // wind
     const KM = Math.round((speed*3.6));
     wind.innerHTML = `Wind :  ${KM}km/h`;
